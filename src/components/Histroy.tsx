@@ -11,16 +11,16 @@ const Histroy = () => {
 
     return (
         <>
-           
 
-                <h3>History</h3>
-                <ul id="myUL">
-            {task.map(obj => (
-                <AddHistoryItem key="obj.title" transtion={(obj)} />
-                
-            ))}
-        </ul>
-          
+
+            <h3>History</h3>
+            <ul id="myUL" className="list">
+                {task.map(obj => (
+                    <AddHistoryItem key="obj.title" transtion={(obj)} />
+
+                ))}
+            </ul>
+
 
 
         </>
